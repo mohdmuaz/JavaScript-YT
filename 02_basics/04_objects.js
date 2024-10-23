@@ -50,13 +50,26 @@ const user = [
         email: "m@gmail.com"
     }
 ]
+// user[1].email
 
-user[1].email
-console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('name'));
-console.log(tinderuser.hasOwnProperty('random'));
+// console.log(tinderuser.hasOwnProperty('name'));
+// console.log(tinderuser.hasOwnProperty('random'));
+
+
+const course = {
+    coursename: "JS in HIndi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// we do not write course.Instructor every time by using this-
+const {courseInstructor: smallname} = course
+// console.log(courseInstructor);
+console.log(smallname);
+
