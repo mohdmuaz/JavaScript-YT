@@ -15,10 +15,16 @@ console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
+
+
+
+
 // Reference(Non-Primitive)
-// Array[], Objects(anything in {} is onjects), Functions
+// Array[], Objects(anything in {} is objects), Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
+
+
 let myObj = {
     name: "hitesh",
     age: 22,
@@ -27,7 +33,6 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
-
 console.log(typeof anotherId);
 
 
